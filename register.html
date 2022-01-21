@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+<body>
+    <center>
+        <div class="act-form"  onsubmit="myFunction1()">
+    <form id="reg-form">
+        <h1 style="color:wheat;margin-left: 25%;margin-right: 25%;box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,5);">Register Online </h1>
+      <label for="fname" style="color: white;font-size: large;"  >First name:</label><br><br>
+      <input type="text" maxlength="15" minlength="3" id="fname" name="fname" value="" required><br><br>
+      <label for="lname" style="color: white;font-size: large;">Last name:</label><br><br>
+      <input type="text"  maxlength="15" minlength="3" id="lname" name="lname" value=""  required><br><br>
+      <label for="email" style="color: white;font-size: large;">Email:</label><br><br>
+      <input type="email" id="email" name="email" value=""  required><br><br>
+      <label for="password" style="color: white;font-size: large;">Password:</label><br><br>
+      <input type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" title="must contain 1 uppercase,1lowercase,1 number,1symbol" id="password" name="password" value=""  required><br><br>
+      <label for="email" style="color: white;font-size: large;">Package Name:</label><br><br>
+      <input list="packages" name="Package" id="Package"  required>
+      <datalist id="packages">
+        <option value="weekly package">
+        <option value="per day package">
+        </datalist><br><br>
+        <input type="submit" class="r-but1" style="background: linear-gradient(45deg,black,rgba(229, 255, 0, 0.288));"> &nbsp; &nbsp;
+        <input type="reset" class="r-but2" style="background: linear-gradient(45deg,black,rgba(229, 255, 0, 0.288));">
+            </form>      
+    </div>
+    </center>
+    
+    <div class="footer">
+        <footer >
+          <a href="#" target="blank"><img src="em.png" width="40px" height="45px"> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#"target="blank"> <img src="w.png" width="40px"> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://www.facebook.com/MAX-FIT-109648710413061"target="blank"> <img src="f.png" width="40px" height="45px">  </a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#"target="blank"> <img src="i.png" width="40px" height="45px"> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#"target="blank"> <img src="t.png" width="40px" height="45px"> </a>
+        </footer>
+        </div>
+    <div class="f-p"><p>All copyright reserved for maxfitgym</p>
+    </div>
+
+    <script>
+        function myFunction1(){
+            alert("Registration submitted")
+        }
+    </script>
+</body>
+</html>
