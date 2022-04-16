@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+</head>
+<body>
+    <center>
+        <div class="act-form" onsubmit="myFunction1()">
+    <form id="reg-form">
+        <h1 style="color:blanchedalmond;margin-left: 25%;margin-right: 25%;box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,5);">Checkout Here</h1>
+        <label for="fname" style="color: white;font-family:sans-serif;" >First name:</label><br><br>
+      <input type="text" id="fname" name="fname" value=""  required><br><br>
+
+      <label for="lname" style="color: white;font-family:sans-serif">Last name:</label><br><br>
+      <input type="text" id="lname" name="lname" value=""  required><br><br>
+
+      <label for="email" style="color: white;font-family:sans-serif">Contact no:</label><br><br>
+      <input type="text" id="contno" name="contno" value=""  required><br><br>
+
+      <p style="color: white;font-family:sans-serif">Delivery Type:</p>
+  <input type="radio" id="jazzcash" name="fav_language" value="jazzcash">
+  <label for="jazcash" style="color: white;font-family:sans-serif">jazzcash</label><br>
+  <input type="radio" id="debitcard" name="fav_language" value="debitcard">
+  <label for="debitcard" style="color: white;font-family:sans-serif">Debitcard</label><br>
+  <input type="radio" id="creditcard" name="fav_language" value="creditcard">
+  <label for="creditcard" style="color: white;font-family:sans-serif"> Creditcard</label><br><br>
+  <input type="submit" value="Submit">
+ </form>
+            
+    </div>
+    </center>
+    
+    
+    <div class="footer">
+        <footer >
+          <a href="#" target="blank"><img src="em.png" width="40px" height="45px"> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://www.facebook.com/MAX-FIT-109648710413061"target="blank"> <img src="f.png" width="40px" height="45px">  </a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#"target="blank"> <img src="i.png" width="40px" height="45px"> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#"target="blank"> <img src="t.png" width="40px" height="45px"> </a>
+        </footer>
+        </div>
+    <div class="f-p"><p>All copyright reserved for maxfitgym</p>
+    </div>
+
+    <script>
+        function myFunction1(){
+            alert("Registration submitted")
+        }
+    </script>
+</body>
+</html>

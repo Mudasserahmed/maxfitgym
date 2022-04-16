@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+<body>
+    <nav class="navbar" >
+        <div class="brand-logo">
+          <img src="maxlogo.png" width="125px" height="100px">
+        </div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.html"target="" >Main</a></li>
+            <li><a href="home.html"  target=""  >Home</a></li>
+            <li><a href="product.html" target="" >Products</a></li>
+            <li><a href="aboutus.html" target="" >Aboutus</a></li>
+            <li><a href="register.html"target="" >Register</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+    <center>
+        <div class="cont-form" onsubmit="myFunction3()">
+        <form  id="usr-form"  >
+    <h1>Contact Us </h1>
+    
+    <label for="fname" style="color: white; font-size: large;" >First name:</label><br><br>
+  <input type="text" maxlength="15" minlength="3" pattern="[a-zA-Z]+" title="only upper case and lowercase alphabets"  id="fname" name="fname" value=""  required ><br><br>
+
+  <label for="lname" style="color: white;font-size: large;">Last name:</label><br><br>
+  <input type="text" maxlength="15" minlength="3" pattern="[a-zA-Z]+" title="only upper case and lowercase alphabets"  id="lname" name="lname" value=""  required><br><br>
+
+  <label for="email" style="color: white;font-size: large;">Email:</label><br><br>
+  <input type="email" id="email" name="email" value=""  required><br><br>
+
+  <label for="msg" style="color: white;font-size: large;">Your message:</label><br><br>
+  <textarea rows="4" cols="22" maxlength="30" minlength="10" name="comment" form="usrform" > </textarea><br><br>
+    <input type="submit"  value="submit" class="c-button1"   style="background:linear-gradient(35deg,black,rgba(229, 255, 0, 0.288));"> &nbsp; &nbsp;
+    <input type="reset" value="reset" class="c-button2" style="background: linear-gradient(45deg,black,rgba(229, 255, 0, 0.288));">    
+</form>  
+    </div>
+</center>
+
+<div class="footer">
+    <footer >
+      <a href="#" target="blank"><img src="em.png" width="40px" height="45px"> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://www.facebook.com/MAX-FIT-109648710413061"target="blank"> <img src="f.png" width="40px" height="45px">  </a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#"target="blank"> <img src="i.png" width="40px" height="45px"> </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="#"target="blank"> <img src="t.png" width="40px" height="45px"> </a>
+    </footer>
+    </div>
+<div class="f-p"><p>All copyright reserved for maxfitgym</p>
+</div>
+
+<script>
+    function myFunction3(){
+        alert("submitted")
+    }
+</script>
+</body>
+</html>
